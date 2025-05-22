@@ -1,0 +1,86 @@
+{
+  "tradicionais": [
+    {
+      "nome": "Michellangelo",
+      "ingredientes": "Mussarela, Bacon e Orégano",
+      "preco": "R$ 55,00",
+      "imagem": "../imgPizzas/Bacon-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Donatello",
+      "ingredientes": "Mussarela, Calabresa, Cebola e Orégano",
+      "preco": "R$ 60,00",
+      "imagem": "../imgPizzas/Calabresa-Acebolada-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Lon Lon Ranch",
+      "ingredientes": "Mussarela e Orégano",
+      "preco": "R$ 55,00",
+      "imagem": "../imgPizzas/Mussarela-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Geek de Regime",
+      "ingredientes": "Mussarela, Tomate e Orégano",
+      "preco": "R$ 60,00",
+      "imagem": "../imgPizzas/Napolitana-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Peach",
+      "ingredientes": "Mussarela, Tomate, Parmesão, Manjericão e Orégano",
+      "preco": "R$ 55,00",
+      "imagem": "../imgPizzas/Marguerita-Tuba_Pizza.png"
+    }
+  ],
+  "doces": [
+    {
+      "nome": "Prestigio",
+      "ingredientes": "Mussarela, Chocolate Preto, Coco e Leite Condensado",
+      "preco": "R$ 55,00",
+      "imagem": "../imgPizzas/Prestigio-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Sensação",
+      "ingredientes": "Mussarela, Chocolate, Morango e Leite Condensado",
+      "preco": "R$ 55,00",
+      "imagem": "../imgPizzas/Sensacao-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Sonho de Valsa",
+      "ingredientes": "Mussarela, Chocolate Preto e Sonho de Valsa",
+      "preco": "R$ 58,00",
+      "imagem": "../imgPizzas/Sonho-de-Valsa-Tuba_Pizza.png"
+    },
+    {
+      "nome": "Banana com Chocolate",
+      "ingredientes": "Mussarela, Banana com Canela, Chocolate Preto e Coco",
+      "preco": "R$ 58,00",
+      "imagem": "../imgPizzas/Banana-Nevasca-Tuba_Pizza.png"
+    }
+  ],
+  "bebidas": [
+    {
+      "nome": "Refri Lata",
+      "preco": "R$ 8,00"
+    },
+    {
+      "nome": "Refri 2L",
+      "preco": "R$ 13,00"
+    },
+    {
+      "nome": "Skol",
+      "preco": "R$ 8,00"
+    },
+    {
+      "nome": "Brahma",
+      "preco": "R$ 10,00"
+    },
+    {
+      "nome": "Antartica",
+      "preco": "R$ 8,00"
+    },
+    {
+      "nome": "Vinho",
+      "preco": "Sob Consulta"
+    }
+  ]
+}
