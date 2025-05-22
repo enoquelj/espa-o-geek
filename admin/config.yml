@@ -1,0 +1,33 @@
+backend: 
+name: git-gateway
+branch: master
+collections:
+  - name: "cardapio"
+    label: "Cardápio"
+    files:
+      - file: "data/cardapio.json"
+        label: "Cardápio"
+        name: "cardapio"
+        fields:
+          - label: "Pizzas Tradicionais"
+            name: "tradicionais"
+            widget: list
+            fields:
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "Ingredientes", name: "ingredientes", widget: "string" }
+              - { label: "Preço", name: "preco", widget: "string" }
+              - { label: "Imagem", name: "imagem", widget: "image" }
+          - label: "Pizzas Doces"
+            name: "doces"
+            widget: list
+            fields:
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "Ingredientes", name: "ingredientes", widget: "string" }
+              - { label: "Preço", name: "preco", widget: "string" }
+              - { label: "Imagem", name: "imagem", widget: "image" }
+          - label: "Bebidas"
+            name: "bebidas"
+            widget: list
+            fields:
+              - { label: "Nome", name: "nome", widget: "string" }
+              - { label: "Preço", name: "preco", widget: "string" }
