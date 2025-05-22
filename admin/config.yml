@@ -1,15 +1,10 @@
 backend:
   name: git-gateway
-  branch: master 
+  branch: master # CONFIRME novamente se sua branch principal no GitHub é "master" ou "main"
 
 # Configurações OBRIGATÓRIAS para upload de imagens:
 media_folder: "static/img/uploads" # Onde as imagens serão salvas no seu repositório
 public_folder: "/img/uploads"      # Como essas imagens serão acessadas no site
-
-# Adicione esta seção de media_library (mesmo que para o git-gateway não seja sempre "obrigatório" pela docs, o erro pede!)
-media_library:
-  name: "git-gateway" # Indica que a biblioteca de mídia é gerenciada pelo próprio backend do Git Gateway
-  # Você pode adicionar outras configurações aqui se planeja usar um serviço como Cloudinary ou Uploadcare no futuro, mas por enquanto, isso deve ser suficiente.
 
 # Configuração para formatar o JSON corretamente:
 output:
