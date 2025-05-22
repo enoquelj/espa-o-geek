@@ -10,5 +10,22 @@
   <div id="nc-root"></div>
 
   <script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          // Se o usuário não está logado, configure para redirecionar após login/confirmação
+          window.netlifyIdentity.on("login", () => {
+            // O Netlify CMS normalmente já lida com o login
+            // Mas, se precisar de um redirecionamento, pode ser aqui:
+            // document.location.href = "/admin/"; 
+          });
+        }
+      });
+      // Inicializa o widget. Isso é crucial para ele processar o token de confirmação.
+      window.netlifyIdentity.init(); 
+    }
+  </script>
 </body>
 </html>
